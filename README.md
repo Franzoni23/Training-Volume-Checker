@@ -32,8 +32,6 @@ Based on these, it classifies your training volume as:
 
 These rules were originally expressed using **Prolog clauses** and translated into JavaScript functions (`checkVolume`) and conditions that dynamically assess input and return detailed feedback.
 
----
-
 ## Technologies
 
 | Technology        | Description                                                      |
@@ -41,7 +39,6 @@ These rules were originally expressed using **Prolog clauses** and translated in
 | **React**         | UI library for building interactive interfaces.                  |
 | **Vite**          | Fast development/build environment.                              |
 | **MUI (Material UI)** | Prebuilt React components with consistent design language.   |
----
 
 ## Setup
 
@@ -51,11 +48,11 @@ git clone https://github.com/Franzoni23/training-volume-checker.git
 cd training-volume-checker
 ```
 
-1. Install dependencies:
+2. Install dependencies:
 ```bash
 npm install
 ```
-1. Once the dependencies are installed, you can start the development server:
+3. Once the dependencies are installed, you can start the development server:
 ```bash
 npm run dev
 ```
